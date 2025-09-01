@@ -1,0 +1,108 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Header Background Color */
+th {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Even Row Background */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Odd Row Background */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Ordered List Styling */
+ol {
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Paragraph Content */
+.test {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f1f1f1; /* Light Gray */
+    border-radius: 8px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Links Styling */
+a:link {
+    color: #4CAF50; /* Green */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6a1b9a; /* Purple */
+}
+
+a:hover {
+    color: #ff5733; /* Red */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #f39c12; /* Yellow */
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+/* Centering the Iframe */
+iframe.center {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(232, 42, 128, 0.1);
+}
+

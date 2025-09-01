@@ -1,6 +1,77 @@
-.light-bule{
+/* Reset some default spacing */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  margin: 0;
+  padding: 0;
+}
 
- background-color:rgb(rgba(255, 0, 0, 0.474), rgba(0, 128, 0, 0.666), rgba(0, 0, 255, 0.375))   
+.container-sm {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+}
 
+
+h1, h2, h3, h4 {
+  color: #2d37e6;
+  font-weight: 600;
+}
+
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0px 0px 8px rgba(40, 167, 69, 0.4);
+}
+
+
+form {
+  background: #e0f7fa !important;
+  border: 2px solid #00acc1;
+  border-radius: 10px;
+}
+
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.4);
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.form-check {
+  margin-bottom: 8px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
 }
 

@@ -1,101 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href=""> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
 </head>
 <body>
-    <div class="container bg-light">
-        <div class="mt-4">
-            <h1 class="display-1 text-center text-info">Hi,Prity</h1>
-            <button type="button"class="btn btn-success">IIT-14</button>
-        </div> 
-        <div class="row container p-5 gx-4 ">
-            <div class="col bg-warning p-4 me-4 align-self-start">
-                <div class="row">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, facere! Esse iure iusto eum nesciunt cumque tempora aut corrupti voluptas?</p>
-                </div>
-                <div class="row">
-                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga delectus sunt hic aperiam consequuntur explicabo exercitationem molestias sequi. Consequuntur, error.
-                 </p>
-                </div>
-            </div>
-            <div class="col bg-info p-4 me-4 align-self-center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nesciunt.</p>
-            </div>
-            <div class="col bg-secondary p-4 me-4 align-self-end">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nesciunt.</p>
-            </div>
-        </div>
-
-        <figure>
-            <blockquote class="blockquote">
-              <p>A well-known quote, contained in a blockquote element.</p>
-            </blockquote>
-            <figcaption class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </figcaption>
-          </figure>
-
-
-          <figure>
-            <img src="css/images.jpg" class="img-thumbnail" alt="">
-          <figcaption class="figure-caption text-center">A Rainy Day</figcaption>
-        </figure>
-
-          <table class="table table-bordered border-danger">
-            <thead>
-                <tr class="table-primary">
-                    <th>Hello</th>
-                    <th>Hello</th>
-                    <th>Hello</th>
-                    <hr>
-                </tr>  
-            </thead>
-            <tbody>
-                <tr class="table-primary">
-                    <td>Hello</td>
-                    <td>Hello</td>
-                    <td>Hello</td>
-                    <hr>
-                </tr>
-                <tr class="table-secondary"><td>Hello</td>
-                    <td>Hello</td>
-                    <td>Hello</td></tr>
-                <tr class="table-success"><td>Hello</td>
-                    <td>Hello</td>
-                    <td>Hello</td></tr>
-                <tr class="table-danger">...<td>Hello</td>
-                    <td>Hello</td>
-                    <td>Hello</td></tr>
-            <tr class="table-warning"><td>Hello</td>
-                <td>Hello</td>
-                <td>Hello</td></tr>
-        <tr class="table-info"><td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td></tr>
-        <tr class="table-light"><td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td></tr>
-        <tr class="table-dark"><td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td></tr>
-
-            </tbody>
-
-          </table>
-
-
+  <div class="container bg-light py-4">
+    <!-- Heading -->
+    <div class="text-center mb-4">
+      <h1 class="display-1 text-info">Hi, Prity</h1>
+      <button type="button" class="btn btn-success">IIT-14</button>
     </div>
 
+    <!-- 3 Columns -->
+    <div class="row gx-4 mb-5">
+      <div class="col bg-warning p-4 me-4 align-self-start">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, facere! Esse iure iusto eum nesciunt cumque tempora aut corrupti voluptas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga delectus sunt hic aperiam consequuntur explicabo exercitationem molestias sequi. Consequuntur, error.</p>
+      </div>
+      <div class="col bg-info p-4 me-4 align-self-center">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nesciunt.</p>
+      </div>
+      <div class="col bg-secondary p-4 align-self-end">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nesciunt.</p>
+      </div>
+    </div>
 
-    
+    <!-- Quote -->
+    <figure>
+      <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </figcaption>
+    </figure>
 
+    <!-- Image with Caption -->
+    <figure class="mt-4">
+      <img src="css/images.jpg" class="img-thumbnail d-block mx-auto" alt="Rainy Day">
+      <figcaption class="figure-caption text-center">A Rainy Day</figcaption>
+    </figure>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Table -->
+    <div class="mt-4">
+      <table class="table table-bordered border-danger text-center">
+        <thead class="table-primary">
+          <tr>
+            <th>Class-1</th>
+            <th>Class-2</th>
+            <th>Class-3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-primary"><td>Noor</td><td>Rifat</td><td>Seam</td></tr>
+          <tr class="table-secondary"><td>Nasrin</td><td>Ema</td><td>Sadika</td></tr>
+          <tr class="table-success"><td>Tinni</td><td>Nusrat</td><td>Abdulla</td></tr>
+          <tr class="table-danger"><td>Marija</td><td>Zarin</td><td>Afifa</td></tr>
+          <tr class="table-warning"><td>prity</td><td>Shipra</td><td>Megla</td></tr>
+          <tr class="table-info"><td>Tonmoy</td><td>Ahad</td><td>Shawon</td></tr>
+          <tr class="table-light"><td>Mamun</td><td>Khuasha</td><td>Shifat</td></tr>
+          <tr class="table-dark text-white"><td>Nipa</td><td>Mashiat</td><td>Nobin</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+          crossorigin="anonymous"></script>
 </body>
 </html>

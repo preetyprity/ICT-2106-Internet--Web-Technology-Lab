@@ -1,0 +1,50 @@
+body {
+    /* Fixing the background image path */
+    background-image: url('/Lab Class-2/image/Scenery.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Makes the background cover the whole screen */
+}
+
+p {
+    /* Using background-image instead of background-color */
+    background-image: url('/Lab Class-2/'); /* If you want a background image for paragraphs */
+    background-repeat: no-repeat;
+    background-size: cover; /* Make sure the image covers the area */
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tan;
+    text-align: justify;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img {
+    /* Optional: You may want to center the image in the layout, or float it to the right */
+    float: right;
+    margin-left: 20px; /* Give some space between the text and the image */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Keeps the image's aspect ratio intact */
+}

@@ -3,10 +3,12 @@ h3 {
 }
 .red-text {
   color: red;
+  
 }
 
 .blue-text {
   color: blue;
+  border: 2px solid rgba(211, 39, 39, 0.652);
    padding: 30px;
 }
 
@@ -15,4 +17,26 @@ h3 {
   border: 2px solid rgb(119, 41, 201);
   /*margin: 50px;*/
   margin: 50px;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.v-image {
+  width: 300px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  float:right;
+}
+
+.im-text {
+  color: red;
+  background-image: url('../image/RPBI.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
 }

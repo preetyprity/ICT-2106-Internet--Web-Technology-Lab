@@ -106,3 +106,74 @@ if(z%2===0){
 let Age=45;
 let result = Age>= 25 ? "adult":"not adult";
 console.log(result);
+
+//switch
+const fruit='Bananna';
+switch(fruit){
+
+case 'Bananna':
+    console.log("360 taka");
+     document.writeln("Bannaa price is 360 taka");
+    break;
+
+case 'mango':
+    console.log("679 taka");
+    break;
+
+case 'lichi':
+    console.log("360 taka");
+    break;
+ default:
+    console.log("no price");
+    
+
+}
+
+alert("Hello");//one time popup
+
+let Name=prompt("Enter the name");
+console.log(Name);
+document.writeln(Name);
+
+//get user to input a number chect it is multipe by 5 or not
+let num=prompt("Enter the integer number");
+if(num%5===0){
+    console.log(num,"Number is multiple of 5");
+    document.writeln(num,"number is multiple of 5");
+}else{
+    console.log(num,"Number is not multiple of 5");
+    document.writeln(num,"number is not multipe of 5");
+}
+
+/*write a code which can give grades to students according to their scores:
+90-100,A
+70-89,B
+60-69,c
+50-59,d
+0-49,f */
+
+let score=prompt("Enter the score");
+if(score>=90&&score<=100){
+    console.log("A");
+    document.writeln("A");
+}
+else if(score>70&&score<=89){
+console.log("B");
+    document.writeln("B");
+    
+}
+else if(score>60&&score<=69){
+console.log("C");
+    document.writeln("C");
+    
+}
+else if(score>50&&score<=59){
+console.log("D");
+    document.writeln("D");
+    
+}
+else{
+  console.log("F");
+    document.writeln("F");  
+}
+

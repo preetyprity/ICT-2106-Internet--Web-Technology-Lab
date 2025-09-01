@@ -102,3 +102,7 @@ if(z%2===0){
 }else{
     console.log("ODD");
 }
+
+let Age=45;
+let result = Age>= 25 ? "adult":"not adult";
+console.log(result);

@@ -11,4 +11,6 @@ h3 {
 
 .green-text {
   color: green;
+  border: 2px solid rgb(119, 41, 201);
+  /*margin: 50px;*/
 }

@@ -60,3 +60,14 @@ console.log("a=",a,"b=",b);
  console.log("a%b=",a%b);
  console.log("a**b=",a**b);
 
+//unary operator
+let c=3;
+let d=8;
+
+console.log("c=",c,"&d=",d);
+c++;
+console.log("c=",c);
+
+console.log("a==b:?",a==b);
+
+

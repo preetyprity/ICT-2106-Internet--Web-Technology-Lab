@@ -113,7 +113,7 @@ switch(fruit){
 
 case 'Bananna':
     console.log("360 taka");
-     document.writeln("Bannaa price is 360 taka");
+     document.writeln("</br>Bannaa price is 360 taka");
     break;
 
 case 'mango':
@@ -139,10 +139,10 @@ document.writeln(Name);
 let num=prompt("Enter the integer number");
 if(num%5===0){
     console.log(num,"Number is multiple of 5");
-    document.writeln(num,"number is multiple of 5");
+    document.writeln(num,"</br>number is multiple of 5");
 }else{
     console.log(num,"Number is not multiple of 5");
-    document.writeln(num,"number is not multipe of 5");
+    document.writeln(num,"</br>number is not multipe of 5");
 }
 
 /*write a code which can give grades to students according to their scores:
@@ -177,3 +177,31 @@ else{
     document.writeln("F");  
 }
 
+//loops
+console.log("\n")
+for(let i=1;i<=5;i++){
+
+console.log("Apna college");
+document.writeln("</br>Apna college");
+
+}
+
+//calculate sum of 1 to 5
+let sum=0;
+for(let i=1;i<=5;i++){
+
+sum=sum+i;
+
+}
+console.log(sum);
+document.writeln("</br>",sum);
+
+
+let i=1;
+while(i<=3){
+
+console.log("</br>Tinni is a good friend");
+document.writeln("</br>Tinni is a good friend");
+i++;
+
+}

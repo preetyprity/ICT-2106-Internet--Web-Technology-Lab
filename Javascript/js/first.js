@@ -77,4 +77,28 @@ console.log("cond1 && cond2",cond1 && cond2);
 console.log("cond1 || cond2",cond1 || cond2);
 console.log("!(a<b)",!(a<b));
 
+//conditinal opeartor
 
+let age=16;
+age=67;
+if(age>18){
+    console.log("you can vote");
+}
+
+let mode="dark";
+let color;
+if(mode==="dark"){
+    color="black";
+}
+else{
+    color="white";
+}
+console.log(color);
+
+let z=9;
+let s=12;
+if(z%2===0){
+    console.log("even");
+}else{
+    console.log("ODD");
+}

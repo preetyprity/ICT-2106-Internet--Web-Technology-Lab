@@ -70,4 +70,11 @@ console.log("c=",c);
 
 console.log("a==b:?",a==b);
 
+//logical operator
+let cond1=a>b;
+let cond2=a==b;
+console.log("cond1 && cond2",cond1 && cond2);
+console.log("cond1 || cond2",cond1 || cond2);
+console.log("!(a<b)",!(a<b));
+
 

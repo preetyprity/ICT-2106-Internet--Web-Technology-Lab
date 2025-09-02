@@ -17,7 +17,7 @@ imgElement.addEventListener("click", function () {
 
 // button দিয়ে replace করা
 document.getElementById("replaceBtn").addEventListener("click", function () {
-  // প্রথম image ডিলিট করা
+
   images.shift();
 
   // নতুন image যোগ করা (তুমি চাইলে নাম পরিবর্তন করো)

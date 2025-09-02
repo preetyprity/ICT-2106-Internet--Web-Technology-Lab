@@ -205,3 +205,38 @@ document.writeln("</br>Tinni is a good friend");
 i++;
 
 }
+let j=1;
+do{
+
+console.log("j",j);
+j++;
+
+}while(j<=5);
+
+//for-of-loop
+let str="Apnacollege";
+let size=0;
+for(let i of str){
+    console.log("i=",i);
+    document.writeln("</br>",i);
+    size++;
+}
+console.log("String size(How many chacaters?):",size);
+document.writeln("</br>String size(How many chacaters?):",size);
+
+//for in loop
+
+let student1={
+FullName:"sajib",
+age:20,
+cgpa:9.0,
+ispass:true,
+
+};
+
+for(let key in student1){
+
+console.log("key=",key,"value=",student1[key]);
+document.writeln("</br>key=",key,"value=",student1[key]);
+
+}
